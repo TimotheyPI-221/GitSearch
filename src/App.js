@@ -6,7 +6,7 @@ import Welcome from "./Welcome";
 
 function App() {
   const [ repo, setRepo ] = useState([])
-  const token = "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";
+  const token = "";
   async function fetchData(name) {
     try{
       const response = await fetch(`https://api.github.com/search/repositories?q=${name}+in:name`, {
