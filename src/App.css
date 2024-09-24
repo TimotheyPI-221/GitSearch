@@ -1,0 +1,87 @@
+.nameRepo{
+  margin-top: 15px;
+  margin-left: 24px;
+
+  /* text-align: center; */
+}
+
+.userName{
+  margin-top: 15px;
+  margin-left: 20px;
+  overflow-wrap: break-word;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.star{
+  padding-left: 27px;
+  background-image: url('../public/star.svg');
+  background-repeat: no-repeat;
+  background-position-y: 1px;
+}
+
+.langStar{
+  /* margin-top: 40px; */
+  padding: 16px 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language{
+  padding: 10px;
+  background-color: cornflowerblue;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.description{
+  padding: 16px 24px 0;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.topics{
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  background-color: #00000014;
+  height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.topicsDiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 16px 24px 0;
+  margin: 0;
+}
+
+.avatarDiv{
+  display: flex;
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  padding: 16px 24px 0;
+  margin: 0;
+}
+
+.avatar{
+  /* margin-left: 24px; */
+  /* margin-top: 16px; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Welcome{
+  position: absolute;
+  top: 0;
+  right:0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  height: 100px;
+}
