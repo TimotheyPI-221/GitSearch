@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default async function fetchData(name) {
   const [ repo, setRepo ] = useState([])
-  const token = "";
+  const token = null;
   try{
       const response = await fetch(`https://api.github.com/search/repositories?q=${name}+in:name`, {
         method: "GET",
