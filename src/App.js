@@ -8,13 +8,13 @@ import Welcome from "./Welcome";
 
 function App() {
   const [ repo, setRepo ] = useState([])
-  const token = null;
+  // const token = null;
   async function fetchData(name) {
     try{
       const response = await fetch(`https://api.github.com/search/repositories?q=${name}+in:name`, {
         method: "GET",
         headers: {
-          Authorization: `token ${token}`, 
+          // Authorization: `token ${token}`, 
           Accept: "application/vnd.github.v3+json",
         },
       });
